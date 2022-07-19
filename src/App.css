@@ -1,0 +1,37 @@
+/* Typography */
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    @apply bg-slate-800;
+}
+
+.header-primary {
+    @apply text-xl w-full;
+    font-family: 'Concert One', cursive;
+    font-weight: bold;
+}
+
+.header-primary__span{
+    @apply text-red-700;
+}
+
+.heading-secondary {
+    @apply text-xl font-bold;
+    font-family: 'Concert One', cursive;
+}
+
+.paragraph {
+    @apply p-2;
+}
+
+.center {
+    @apply text-center;
+}
+
+/* COMPONENTS */
+
+.btn {
+    @apply py-2 px-5 my-2;
+    @apply bg-blue-500;
+    @apply rounded;
+    @apply font-bold tracking-wide;
+}

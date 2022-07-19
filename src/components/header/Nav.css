@@ -1,0 +1,7 @@
+.nav__menu {
+    @apply flex flex-row;
+}
+
+.nav__item {
+    @apply m-1;
+}
